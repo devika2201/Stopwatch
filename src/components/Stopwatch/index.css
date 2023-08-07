@@ -1,0 +1,105 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .card-element {
+    background-color: #ffffff;
+    height: 120px;
+    width: 100vw;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.card-element {
+  background-color: #ffffff;
+  height: 310px;
+  width: 310px;
+  margin: 15px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.timer-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.timer {
+  height: 25px;
+  width: 25px;
+  margin-top: 13px;
+}
+
+.para {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.button1 {
+  background-color: #1db05f;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
+  color: #ffffff;
+}
+
+.button2 {
+  background-color: #ef0d36;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
+  color: #ffffff;
+}
+
+.button3 {
+  background-color: #eaa800;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
+  color: #ffffff;
+}
